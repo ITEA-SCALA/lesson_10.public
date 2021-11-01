@@ -31,6 +31,7 @@ libraryDependencies ++= Seq(
   "dev.optics" %% "monocle-macro" % monocleVersion,
 
   "com.softwaremill.macwire" %% "macros" % "2.4.1" % "provided",
+  "org.typelevel" %% "cats-core" % "0.4.1",
 
   "org.scalatest" %% "scalatest" % "3.3.0-SNAP3" % Test,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test,

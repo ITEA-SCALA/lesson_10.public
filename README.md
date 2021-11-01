@@ -11,6 +11,14 @@
 * `Noel Welsh and Dave Gurnell: Scala with Cats` (Ru): https://fpspecialty.github.io/scala-with-cats/scala-with-cats.html
     * https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/KtbxLvHgRFNsWGQDLNTjRKkCQjgxmhNWsB
 * `Lightbend for Scala`: https://github.com/ITEA-SCALA/LessonCatsZIO
+* [Cats](https://typelevel.org/cats)
+  * `cats-kernel`: Small set of basic type classes (required).
+  * `cats-core`: Most core type classes and functionality (required).
+  * `cats-laws`: Laws for testing type class instances.
+  * `cats-free`: Free structures such as the free monad, and supporting type classes.
+  * `cats-testkit`: lib for writing tests for type class instances using laws.
+  * `algebra`: Type classes to represent algebraic structures.
+  * `alleycats-core`: Cats instances and classes which are not lawful.
 
 
 * [Конспект по Scala with Cats](https://blog.maizy.ru/posts/scala-cats-summary)
