@@ -23,7 +23,7 @@ class HealthController(implicit service: HealthService) {
 //            case Success(dto) =>
               log.info(s"Server get health $dto")
               implicit val dtoJson = jsonFormat2( HealthDto.apply )
-              complete( StatusCodes.OK, dto.toString ) //TODO  http://localhost:8080/health  |  { label: 'health-1', status: true }
+              complete( StatusCodes.OK, dto.toString ) //TODO  http://localhost:8081/health  |  { label: 'health-1', status: true }
 //          }
 //        }
       }
