@@ -186,6 +186,13 @@ _ <- createNewUser(User(1))
 
 ---
 
+EXCEPTION thrown from instance2 (when instance1 is already running). I even tried always setting the port and bind-port to 9999 but not matter what it always trys to bind to 2552. I am wondering if I am using this dynamic config incorrectly.
+
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /192.168.0.208:2552 Caused by: java.net.BindException: Address already in use
+
+
+---
+
 [Ссылка на запись 10 занятия](https://us02web.zoom.us/rec/play/X6rhLI1K9e9MnudaW98d_Yl8LqChsXjQukvO0obsQ6NP9VnWl0DcENiRCOJJ0eo0JpgP7JfBk1gOi9RO.XDNUdMDJS2YRiV6K?continueMode=true&_x_zm_rtaid=2JJfHmGDRVmnAdxJzdP76A.1635693445906.d722d020dde626ef63a12833306dc9c8&_x_zm_rhtaid=204)
 
 * `Scala Docs` https://github.com/Home-SCALA2/docs
